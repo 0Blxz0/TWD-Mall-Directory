@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TWD Mall Directory</title>
+  <link rel="stylesheet" href="Hernstyle.css" />
+</head>
+<body>
+  <!-- Nav Bar -->
+    <div class="navbar">
+      <div class="nav-title">TWD Mall Directory</div>
+      <div class="nav-content">
+        <a href="Home.html">Home</a>
+        <div class="dropdown" id="menuDropdown">
+          <button class="dropdown-button" onclick="toggleDropdown()">Menu ▼</button>
+          <div class="dropdown-content">
+            <a href="All/ALl.html">All</a>
+            <a href="food/Food.html">Food & Beverage</a>
+            <a href="Beauty/Beauty.html">Beauty & Fashion</a>
+            <a href="Entertainment/Entertainment.html">Entertainment</a>
+            <a href="Others/Others.html">Others</a>
+          </div>
+        </div>
+        <a href="AboutUs/AboutUs.html">About Us</a>
+        <a href="ContactUs/ContactUs.html">Contact Us</a>
+        
+      </div>
+    </div>
+
+    <!-- Welcome Banner -->
+    <div class="welcome">
+      <h2>Welcome to TWD Mall</h2>
+      <p>Looking for something? We're here to help!</p>
+      <div class="search-container">
+        <p>Search for stores ...</p>
+        <button class="search-button">
+          <img src="newsearch.png" alt="search button" />
+        </button>
+      </div>
+    </div>
+
+    <!-- Category Box -->
+    <div class="category-buttons">
+      <a href="All/ALl.html" class="category-btn-box">
+        <img src="All.png" alt="All" />
+        <span>All</span>
+      </a>
+      <a href="food/Food.html" class="category-btn-box">
+        <img src="Food&Beverage.png" alt="Food" />
+        <span>Food & Beverage</span>
+      </a>
+      <a href="Beauty/Beauty.html" class="category-btn-box">
+        <img src="Beauty&Fashion.png" alt="Beauty" />
+        <span>Beauty & Fashion</span>
+      </a>
+      <a href="Entertainment/Entertainment.html" class="category-btn-box">
+        <img src="Entertainment.png" alt="Entertainment" />
+        <span>Entertainment</span>
+      </a>
+      <a href="Others/Others.html" class="category-btn-box">
+        <img src="Others.png" alt="Others" />
+        <span>Others</span>
+      </a>
+    </div>
+    
+    <div class="recommend-section">
+      <h2 class="section-title">Recommended</h2>
+      <hr>
+      <div class="recommend-shop">
+        <div class="shop-card">
+          <a href="Beauty/stores/sephora.html">
+            <img src="sephora.jpg" alt="Sephora Store" class="shop-img">
+            <div class="shop-name">Sephora</div>
+            <div class="stars">★★★★★</div>
+            <div class="location">Level 3, Unit 303</div>
+            <div class="description">Prestige beauty destination for makeup, skincare, haircare and more.</div>
+          </a>
+        </div>
+
+        <div class="shop-card">
+          <a href="Beauty/stores/Bodyshop.html">
+            <img src="TBSNEWESTVER.jpeg" alt="The Body Shop Store" class="shop-img">
+            <div class="shop-name">The Body Shop</div>
+            <div class="stars">★★★★★</div>
+            <div class="location">Level 1, Unit 106</div>
+            <div class="description">Natural and ethical skincare, body care, and fragrances loved worldwide.</div>
+          </a>
+        </div>
+
+        <div class="shop-card" style="border-left: 6px solid #BD0017">
+          <a href="food/stores/store-nandos.html">
+            <img src="Nandos.jpeg" alt="Nandos Chicken" class="shop-img">
+            <div class="shop-name">Nandos's</div>
+            <div class="stars">★★★★★</div>
+            <div class="location">Level 3, Unit 308</div>
+            <div class="description">Malaysian fast-food chain serving fried chicken, burgers, abd local rice meals with a twist</div>
+          </a>
+        </div>
+
+        <div class="shop-card" style="border-left: 6px solid #BD0017">
+          <a href="food/stores/store-sushiking.html">
+            <img src="SushiKing.jpeg" alt="Sushi king" class="shop-img" style="object-fit: contain;">
+            <div class="shop-name">Sushi King</div>
+            <div class="stars">★★★★★</div>
+            <div class="location">Level 1, Unit 109</div>
+            <div class="description">A popular Japanese dining spot offering fresh sushi, bento sets, and warm ramen in a casual, family-friendly atmosphere.</div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back To Top Button -->
+    <button id="backToTop" title="Back to Top">↑</button>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>TWD Mall</h3>
+          <p>Puchong Jaya 47170</p>
+          <p>Phone Number: +6021 567 7862</p>
+        </div>
+        <div class="footer-section">
+          <h3>Mall Opening Hours</h3>
+          <p>Weekdays: 10am - 10pm</p>
+          <p>Saturday: 10am - 12am</p>
+          <p>Sunday: 10am - 10pm</p>
+        </div>
+        <div class="footer-section">
+          <h3>Links</h3>
+          <p><a href="AboutUs/AboutUs.html">About Us</a></p>
+          <p><a href="ContactUs/ContactUs.html">Contact Us</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <hr class="recommend-divider">
+        © 2025 TWD Mall. All rights reserved.
+      </div>
+    </footer>
+
+<script src="group-script.js"></script>
+
+</body>
+</html>

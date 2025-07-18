@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="Jeff1.css" />
+</head>
+<body>
+
+ <div class="navbar">
+    <div class="nav-title">TWD Mall Directory</div>
+    <div class="nav-content">
+      <a href="../Home.html">Home</a>
+      <div class="dropdown" id="menuDropdown">
+        <button class="dropdown-button" onclick="toggleDropdown()">Menu ▼</button>
+        <div class="dropdown-content">
+          <a href="../All/All.html">All</a>
+          <a href="../food/Food.html">Food & Beverage</a>
+          <a href="../Beauty/Beauty.html">Beauty & Fashion</a>
+          <a href="../Entertainment/Entertainment.html">Entertainment</a>
+          <a href="../Others/Others.html">Others</a>
+        </div>
+      </div>
+      <a href="../AboutUs/AboutUs.html">About Us</a>
+      <a href="../ContactUs/ContactUs.html">Contact Us</a>
+    </div>
+  </div>
+      
+     <main class="contact-section">
+  <div class="contact-main">
+
+    <div class="mall-image-stack">
+      <img src="mall1.png" alt="Mall Image 1" class="mall-photo" />
+      <img src="mall2.jpg" alt="Mall Image 2" class="mall-photo" />
+    </div>
+
+    <!-- RIGHT SIDE: contact form -->
+    <section class="contact-form" id="contactBox">
+      <h2 class="section-heading">Contact Us</h2>
+      <form id="contactForm" onsubmit="return validateForm()">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message..."></textarea><br>
+
+        <div class="button">
+          <button type="submit">Send your message</button>
+        </div>
+      </form>
+    </section>
+
+  </div>
+</main>
+
+    <!-- Chat Icon -->
+    <div id="chat-icon" onclick="toggleChatbox()">
+      <img src="chat.png" alt="Chat Icon" />
+    </div>
+
+    <!-- Chatbot -->
+    <div class="chatbot" id="chatbot">
+      <div class="chatbox-header">
+        <span>Customer Service</span>
+        <button onclick="closeChatbox()">X</button>
+      </div>
+      <div class="messages" id="messages">
+      </div>
+      <input type="text" id="userInput" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+
+   <div class="newsletter-subscription">
+     <h2 class="newsletter-heading">Get updates on our latest promos & event</h2>
+       <div class="newsletter-box">
+         <img src="mail.png" alt="Send" class="newsletter-icon-img newsletter-icon-mail" />
+         <input type="email" class="newsletter-input" placeholder="Enter your email" />
+         <button class="newsletter-button">
+         <img src="right-arrow.png" alt="Send" class="newsletter-icon-img" />
+       </button>
+     </div>
+   </div>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>TWD Mall</h3>
+          <p>Puchong Jaya 47170</p>
+          <p>Phone Number: +6021 567 7862</p>
+        </div>
+        <div class="footer-section">
+          <h3>Mall Opening Hours</h3>
+          <p>Weekdays: 10am - 10pm</p>
+          <p>Saturday: 10am - 12am</p>
+          <p>Sunday: 10am - 10pm</p>
+        </div>
+        <div class="footer-section">
+          <h3>Links</h3>
+          <p><a href="../AboutUs/AboutUs.html">About Us</a></p>
+          <p><a href="ContactUs.html">Contact Us</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <hr style="border: 0; height: 1px; background: #797575; margin: 20px 100px;">
+        © 2025 TWD Mall. All rights reserved.
+      </div>
+    </footer>
+  </div>
+
+  <script src="../group-script.js"></script>
+</body>
+</html>
