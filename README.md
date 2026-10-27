@@ -4,6 +4,8 @@ A responsive website for a fictional shopping mall, TWD Mall. Visitors can brows
 
 Built as a 5-person team project at Sunway University (Apr – Aug 2025).
 
+**Live site:** [0blxz0.github.io/TWD-Mall-Directory](https://0blxz0.github.io/TWD-Mall-Directory/Home.html) (opens the home page; the [full version](https://0blxz0.github.io/TWD-Mall-Directory/) starts at the login mock-up)
+
 **Stack:** HTML5 · CSS3 (Flexbox, Grid, media queries) · vanilla JavaScript · no frameworks, no build step
 
 ## Features
@@ -17,7 +19,7 @@ Built as a 5-person team project at Sunway University (Apr – Aug 2025).
 
 ## Run it
 
-Clone the repository and open `index.html` in a browser. It starts at the login page; click **Login** to reach the home page. You can also open `Home.html` directly.
+Visit the [live site](https://0blxz0.github.io/TWD-Mall-Directory/Home.html), or clone the repository and open `index.html` in a browser. It starts at the login page; click **Login** to reach the home page. You can also open `Home.html` directly.
 
 ```bash
 git clone https://github.com/0Blxz0/TWD-Mall-Directory.git
